@@ -1,0 +1,83 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar{
+    text-align: right;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.gambar img {
+    border-radius: 50%;
+}
+.gambar {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.kontak {
+    margin-right: 10px;
+    margin-left: -100px;
+}
+
+.kontak-button {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+}
+
+.resume-button {
+    background-color: white;
+    color: green;
+    padding: 15px;
+    border: 1px solid green;
+}
+
+.informasi {
+    /* margin-left: 200px; */
+    padding: 5px;
+}
+
+.informasi label {
+    display: inline;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    /* margin-left: -200px; */
+}
+
+.form {
+    background-color: white;
+    padding: 10px;
+    margin: 40px;
+}
+
+.form input {
+    margin-left: -7px;
+    width: 100%;
+    display: block;
+    padding: 5px;
+}
+
+.submit {
+    background-color: green;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
